@@ -74,6 +74,15 @@ export NVM_SOURCE="/usr/share/nvm"                     # The AUR package install
 bindkey "^P" up-line-or-beginning-search
 bindkey "^N" down-line-or-beginning-search
 
+# Aliases
+alias gaa="git add ."
+alias ga="git add"
+alias gc="git commit"
+alias gpp="git pull"
+alias gp="git push"
+alias gl="git log"
+alias gd ="git diff"
+
 
 # Capslock command
 alias capslock="sudo killall -USR1 caps2esc"
