@@ -81,8 +81,10 @@ alias gc="git commit"
 alias gpp="git pull"
 alias gp="git push"
 alias gl="git log"
-alias gd ="git diff"
+alias gd="git diff"
 
+# Vars and such
+export GCM_CREDENTIAL_STORE=cache
 
 # Capslock command
 alias capslock="sudo killall -USR1 caps2esc"
