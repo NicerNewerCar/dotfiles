@@ -83,6 +83,8 @@ alias gp="git push"
 alias gl="git log"
 alias gd="git diff"
 
+alias where="echo '$(pwd)'"
+
 # Vars and such
 export GCM_CREDENTIAL_STORE=cache
 
