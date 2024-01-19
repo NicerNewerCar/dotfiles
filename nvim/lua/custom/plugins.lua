@@ -26,6 +26,7 @@ local plugins = {
     event = "VeryLazy",
     dependencies = "mfussenegger/nvim-dap",
     config = function ()
+      require("dap.ext.vscode").load_launchjs()
       local dap = require("dap")
       local dapui = require("dapui")
       dapui.setup()
@@ -55,6 +56,7 @@ local plugins = {
     "mfussenegger/nvim-dap",
     config = function(_,_)
       require("core.utils").load_mappings("dap")
+      require("custom.configs.dap")
     end
   },
   {
