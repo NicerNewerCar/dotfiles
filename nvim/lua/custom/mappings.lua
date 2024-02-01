@@ -33,4 +33,14 @@ M.dap_python = {
   }
 }
 
+M.vimtex = {
+  plugin = true,
+  n = {
+    ["<leader>lc"] = {
+      "<cmd> VimtexCompile <CR>",
+      "Compile the current latex document"
+    }
+  }
+}
+
 return M

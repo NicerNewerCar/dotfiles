@@ -84,6 +84,7 @@ alias gl="git log"
 alias gd="git diff"
 
 alias where="echo '$(pwd)'"
+alias nf="neofetch"
 
 # Vars and such
 export GCM_CREDENTIAL_STORE=cache

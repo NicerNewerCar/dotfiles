@@ -1,5 +1,18 @@
 local plugins = {
   {
+    "lervag/vimtex",
+    lazy = false,
+    init = function()
+      -- put vim.g.vimtex_* settings here
+      vim.g.vimtex_syntax_enabled = 0
+      vim.g.vimtex_compiler_method = 'latexmk'
+      vim.g.vimtex_view_method = 'zathura'
+    end,
+    config = function(_,_)
+      require("core.utils").load_mappings("vimtex")
+    end
+  },
+  {
     "simrat39/rust-tools.nvim",
     ft = "rust",
     dependencies = "neovim/nvim-lspconfig",
@@ -90,14 +103,20 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        -- C/C++ 
         "clangd",
         "clang-format",
         "codelldb",
+        -- Python
         "python-lsp-server",
         "black",
         "isort",
         "debugpy",
-        "rust-analyzer"
+        -- Rust
+        "rust-analyzer",
+        -- Latex
+        "latexmk",
+        "texlive",
       }
     }
   }

@@ -1,5 +1,6 @@
 echo "Installing dependencies"
-sudo apt install zsh tmux python3 python3-venv
+sudo apt install zsh tmux python3 python3-venv cargo
+cargo install texlab
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 echo "Linking zsh"
 ln -s $(pwd)/zshrc ~/.zshrc

@@ -17,3 +17,9 @@ lspconfig.pylsp.setup({
   capabilities = capabilities,
   filetypes = {"python"},
 })
+
+lspconfig.texlab.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"latex"}
+})
