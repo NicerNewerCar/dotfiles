@@ -86,9 +86,6 @@ alias gd="git diff"
 alias where="echo '$(pwd)'"
 alias nf="neofetch"
 
-# Vars and such
-export GCM_CREDENTIAL_STORE=cache
-
 # Capslock command
 alias capslock="sudo killall -USR1 caps2esc"
 
