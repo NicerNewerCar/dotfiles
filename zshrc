@@ -78,16 +78,19 @@ bindkey "^N" down-line-or-beginning-search
 alias gaa="git add ."
 alias ga="git add"
 alias gc="git commit"
-alias gpp="git pull"
-alias gp="git push"
+alias gpl="git pull"
+alias gph="git push"
 alias gl="git log"
 alias gd="git diff"
 
 alias where="echo '$(pwd)'"
 alias nf="neofetch"
+alias ond="/home/aj/Ondsel_ES_2024.1.0.35694-Linux-x86_64.AppImage"
 
 # Capslock command
 alias capslock="sudo killall -USR1 caps2esc"
+
+export GCM_CREDENTIAL_STORE=cache
 
 if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
