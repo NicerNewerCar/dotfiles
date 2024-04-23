@@ -1,4 +1,5 @@
 local plugins = {
+  {"nvim-neotest/nvim-nio" },
   {
     "lervag/vimtex",
     lazy = false,

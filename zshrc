@@ -85,12 +85,15 @@ alias gd="git diff"
 
 alias where="echo '$(pwd)'"
 alias nf="neofetch"
-alias ond="/home/aj/Ondsel_ES_2024.1.0.35694-Linux-x86_64.AppImage"
+alias nv="nvim"
+
+alias ondsel="/home/aj/Applications/Ondsel_ES_2024.1.0.35694-Linux-x86_64.AppImage"
+alias prusaslicer="/home/aj/Applications/PrusaSlicer-2.7.1+linux-x64-GTK3-202312121425.AppImage"
 
 # Capslock command
 alias capslock="sudo killall -USR1 caps2esc"
 
-export GCM_CREDENTIAL_STORE=cache
+export GCM_CREDENTIAL_STORE=plaintext
 
 if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
