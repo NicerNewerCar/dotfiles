@@ -87,8 +87,8 @@ alias where="echo '$(pwd)'"
 alias nf="neofetch"
 alias nv="nvim"
 
-alias ondsel="/home/aj/Applications/Ondsel_ES_2024.1.0.35694-Linux-x86_64.AppImage"
-alias prusaslicer="/home/aj/Applications/PrusaSlicer-2.7.1+linux-x64-GTK3-202312121425.AppImage"
+alias ondsel="/home/aj/Applications/Ondsel.AppImage"
+alias prusaslicer="/home/aj/Applications/PrusaSlicer.AppImage"
 
 # Capslock command
 alias capslock="sudo killall -USR1 caps2esc"
