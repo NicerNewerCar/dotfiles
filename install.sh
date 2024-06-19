@@ -9,5 +9,7 @@ ln -s $(pwd)/tmux.conf ~/.tmux.conf
 echo "Use <prefix>+I to install tmux plugins on first launch"
 echo "Linking nvim"
 ln -s $(pwd)/nvim/ ~/.config/nvim
+echo "Linking p10k config"
+ln -s $(pwd)/p10.zsh ~/.p10k.zsh
 echo "Setting nvim as default git editor"
 git config --global core.editor "nvim"

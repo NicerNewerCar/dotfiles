@@ -90,6 +90,8 @@ alias nv="nvim"
 alias ondsel="/home/aj/Applications/Ondsel.AppImage"
 alias prusaslicer="/home/aj/Applications/PrusaSlicer.AppImage"
 
+alias docker="sudo docker"
+
 # Capslock command
 alias capslock="sudo killall -USR1 caps2esc"
 
