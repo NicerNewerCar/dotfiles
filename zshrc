@@ -83,10 +83,6 @@ alias gph="git push"
 alias gl="git log"
 alias gd="git diff"
 
-alias where="echo '$(pwd)'"
-alias nf="neofetch"
-alias nv="nvim"
-
 alias ondsel="/home/aj/Applications/Ondsel.AppImage"
 alias prusaslicer="/home/aj/Applications/PrusaSlicer.AppImage"
 
