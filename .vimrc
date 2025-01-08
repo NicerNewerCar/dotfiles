@@ -1,7 +1,7 @@
 colorscheme industry
 
 " Turn on hybrid line numbers
-set number relativenubers
+set number relativenumber
 set nu rnu
 
 " Netrw settings
@@ -18,7 +18,7 @@ map <C-N> :Vex<CR>
 " If netrw is the only buffer open quit
 aug netrw_close
   au!
-  au WinEnter * if if winnr('$') == 1 && getbufvar(winbufnr(winnr()), "&filetype") == "netrw"|q|endif
+  au WinEnter * if winnr('$') == 1 && getbufvar(winbufnr(winnr()), "&filetype") == "netrw"|q|endif
 aug END
 
 " Close netrw after opening file
